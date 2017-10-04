@@ -1,0 +1,45 @@
+duplicate this 5x
+duplicate this 5x
+duplicate this 5x
+duplicate this 5x
+uuplicate this 5x
+<div class="step"><span>step</span></div>
+<div class="step"><span>step</span></div>
+<div class="step"><span>step</span></div>
+<div class="step"><span>step</span></div>
+<div class="step"><span>step</span></div>
+> list of the files on the folder
+cli1.js
+LICENSE
+lodash.js
+node_modules
+package.json
+package-lock.json
+README.md
+testvim.txt
+type.js
+wq
+
+== Vim has features not in Vi ===
+windows or linux or Osx
+in additionns to that vim provides us the ability to wr
+== we are in the directory ==
+
+/mnt/c/Users/hosam/Desktop/nodecli
+
+== status of this file ==
+ it seems i alreaady found her
+if you fall in trouble dial 9
+ 32 lines  75 words 625 characters  in the file
+come in 
+don't stop caring
+this is touching my heart
+this is impresssing
+
+just in time
+Ahead of time
+
+i didn't wont't to embarrass her in front of her family
+
+
+

@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "@std/esm": "^0.10.2",
     "lodash": "^4.17.4",
     "yargs": "^8.0.2"
   }
