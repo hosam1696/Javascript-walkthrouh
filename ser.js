@@ -5,12 +5,15 @@ let http = require('http');
 
 
 http.createServer((req, res)=> {
-	if (req.href == 'name') 
-		res.end('name');
-	 else {
+	if (req.address == 'name'){
+		res.write('name is Hosam');
+		res.end();
+	 }else {
 
 		res.writeHead(200, {'Content-Type': 'application/json'});
-		res.end(req);
+		
+		res.write(res);
+		res.end();
 }
 }).listen(3000, (err)=>{
 

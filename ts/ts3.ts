@@ -1,8 +1,12 @@
 let course = import('./course');
 
-course.then(x=>{
-    console.log(x)
-});
+async function AsyncFunc() {
+    const ServerClass = new (await course).Server();
+
+    console.log(ServerClass.title)
+}
 
 
-   
+
+AsyncFunc();
+

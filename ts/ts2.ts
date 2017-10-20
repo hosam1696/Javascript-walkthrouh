@@ -1,8 +1,5 @@
 import { Counter } from './ts1';
-import {Client} from './course';
-
-
-Client
+import { Client } from './course';
 
 //import * as fetch from '../node_modules/node-fetch';
 type logFunc = (data: any) => string;
@@ -53,12 +50,10 @@ console.log(testedClass.user);
 
 
 class NewClass extends Test {
-    super: any;
+    
     constructor() {
-        super();
-        this.super = super();
-        this.super.name = 'Shimaa Elmenshawy';
-        console.log('New class and super together', this.super.user);
+        super();    
+        console.log('New class and super together', super.user);
     }
 }
 

@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -16,13 +17,13 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     }
     return t;
 };
-import * as fetch from 'node-fetch';
+Object.defineProperty(exports, "__esModule", { value: true });
 var x;
 var myObj = { name: 'Hosam', age: 21, gender: 'male' };
-var myLover = __assign({}, myObj, { lover: 'menna allah' });
+var myLove = __assign({}, myObj, { lover: 'menna allah' });
 console.log('%c%s', 'font-size: 25px;color: cyan', 'New Object rest params');
 console.group();
-console.log(myLover);
+console.log(myLove);
 var count = function () { var x = 0; for (var i = 0; i < 600; i++) {
     x = i;
 } return x; };
@@ -97,5 +98,4 @@ function fab() {
 console.log(fab())
 
 }*/
-var fetchedApi = Promise.resolve(fetch('http://api.animalfarmgame.com/animals/5'));
-fetchedApi;
+//const Fetch = import('../node_modules/node-fetch')

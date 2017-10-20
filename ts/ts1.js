@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var EX;
 (function (EX) {
     EX[EX["x"] = 0] = "x";
@@ -43,7 +45,7 @@ var Counter = (function () {
     Counter._counter = 0;
     return Counter;
 }());
-export { Counter };
+exports.Counter = Counter;
 var counter = new Counter();
 console.log('counter Value', counter.Value);
 var map = function (arr, callback) {

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Client = (function () {
     function Client() {
         this.prop = 'a class property';
@@ -7,10 +9,11 @@ var Client = (function () {
     };
     return Client;
 }());
+exports.Client = Client;
 var Server = (function () {
     function Server() {
         this.title = 'server class';
     }
     return Server;
 }());
-export { Server };
+exports.Server = Server;

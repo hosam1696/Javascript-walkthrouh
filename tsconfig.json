@@ -9,8 +9,6 @@
             "es2015.promise"
         ]     
     },
-    "files": [
-        "./ts/ts2.ts"
-    ]
+    "include": ["**/*.ts"]
 
 }

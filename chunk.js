@@ -1,3 +1,12 @@
+const nodeFetch = require('node-fetch');
+
+nodeFetch('http://rfapp.net/api/users.php', {method:'POST',body:"{action:'getUsers'}"})
+    .then(data=>data.json())
+    .then(d=>{
+        console.log(d)
+    });
+
+
 function chunk(arr, limit) {
     let length = arr.length;
     let chunked = [];
