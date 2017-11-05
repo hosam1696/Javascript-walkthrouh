@@ -28,5 +28,10 @@ class Initiate extends Server {
 let ser = new Initiate()
 
 
-
+enum flags {
+	one = 0,
+	two = 1 << 0,
+	three = 1 << 1,
+	four = 1 << 2
+}
 

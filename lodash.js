@@ -29,4 +29,4 @@ function slice(arr, start, end) {
     return result
 }
 
-console.log(slice([1, 2, 3, 4], 2))
+console.log(slice([1, 2, 3, 4], 3))

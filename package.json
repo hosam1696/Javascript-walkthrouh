@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "@std/esm": "^0.10.2",
+    "@types/johnny-five": "0.0.31",
     "@types/node-fetch": "^1.6.7",
+    "johnny-five": "^0.11.7",
     "lodash": "^4.17.4",
     "node-fetch": "^1.7.3",
     "yargs": "^8.0.2"

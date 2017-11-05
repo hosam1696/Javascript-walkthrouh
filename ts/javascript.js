@@ -20,7 +20,6 @@
 */
 const chalk = require('chalk');
 
+let tab = 'Hosam';
 
-console.log(chalk.underline.cyan('javacsript The Good parts'));
-
-var tab = 'Hosam';
+console.log(chalk.underline.cyan(`javacsript The Good ${chalk.green.bold(tab)}`));
