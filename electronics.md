@@ -57,6 +57,10 @@ How to build Circuits: *Practical Electronics for inventors* provides hands-on i
 
 > if only two terminals are of interest these two terminals these termials can be extracted from the complex circuits and the rest of the circuit can be considered as block box*
 
+### Contactor
+---
 
+used to deal with high voltages
 
+nutral or normal phase or two or three 
 

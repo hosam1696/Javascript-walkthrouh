@@ -1,6 +1,11 @@
 const _ = require('lodash');
-
 let arr = [16,96];
+
+let cap = _.capitalize("hoikkmsd;lf sdjfhkhj");
+const capitalize = str => str.replace(/\b[a-z]/g, c=>'<'+c.toUpperCase()+'>');
+
+let cap2 = capitalize('Hosam elnabawy Ahmed and menna allah mohamed');
+cap2
 
 let concated = _.concat(arr, 'hosam', 'menna', 2020);
 
