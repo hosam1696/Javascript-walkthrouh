@@ -1,5 +1,0 @@
-while :
-do
-tree .;
-
-done
