@@ -1,7 +1,9 @@
 {
     "compileOnSave": false,
+    
     "compilerOptions": {
         "target": "es5",
+        "checkJs": true,
         "module": "commonjs" ,
         "lib": [
             "dom",

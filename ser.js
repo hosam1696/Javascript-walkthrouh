@@ -5,7 +5,7 @@ let http = require('http');
 
 
 http.createServer((req, res)=> {
-	if (req.address == 'name'){
+	if (req.url == 'name'){
 		res.write('name is Hosam');
 		res.end();
 	 }else {
