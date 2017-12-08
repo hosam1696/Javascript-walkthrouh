@@ -1,8 +1,12 @@
+# node project
 .*.md.*
 .idea
 # Logs
 logs
 *.log
+ts/*.js
+
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
