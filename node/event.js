@@ -1,5 +1,4 @@
 const {EventEmitter} = require('events');
-const path = require('path');
 
 class Man extends EventEmitter {
     constructor() {
