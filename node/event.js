@@ -1,4 +1,5 @@
 const {EventEmitter} = require('events');
+const path = require('path');
 
 class Man extends EventEmitter {
     constructor() {
@@ -18,10 +19,7 @@ class Man extends EventEmitter {
         }
         console.log('finished..');
     }
-
 }
 
-const hosam = new Man();
-
-hosam.on('walking', hosam.walkEvent);
-hosam.walk()
+//const hosam = new Man();
+module.exports = new Man();

@@ -5,7 +5,6 @@
 
 */
 
-
 const chalk = require('chalk');
 const readline = require('readline');
 const range = (start, end)=>Array.from({length:end-start+1},(a,b)=>b+start);
