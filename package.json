@@ -14,8 +14,10 @@
     "immutable": "^3.8.2",
     "johnny-five": "^0.11.7",
     "lodash": "^4.17.4",
+    "n-files": "^1.0.2",
     "node-fetch": "^1.7.3",
     "pubnub": "^4.17.0",
+    "rxjs": "^5.5.5",
     "yargs": "^8.0.2"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@
     "compileOnSave": false,
     
     "compilerOptions": {
+        "allowJs": true,
         "target": "es5",
         "checkJs": true,
         "module": "commonjs" ,
@@ -11,6 +12,7 @@
             "es2015.promise"
         ]     
     },
-    "include": ["**/*.ts"]
-
+    "files": [
+        "ts/nodets.ts"
+    ]
 }

@@ -12,14 +12,13 @@ readFile(__dirname+'/cli1.js',{encoding:'utf8'}, (err, data)=> {
 });
 
 
-async function  DealingWithFile() {
+async function  DealingWithFile(filename = 'node1.js') {
 
-    let fileContent = await readFilePromise(__dirname+'/cli1.js', {encoding: 'utf8'});
+    let fileContent = await readFilePromise(__dirname+'/'+filename, {encoding: 'utf8'});
 
     console.log('file content from async function\n', chalk.red(fileContent));
 
-    console.log('matched index',fileContent.match(/\;/g),'there is '+fileContent.match(/\n/g).length+' statements in this file');
-
+    console.log('there are '+fileContent.match(/\n/g).length+' lines in this file');
 
 }
 

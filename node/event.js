@@ -22,3 +22,10 @@ class Man extends EventEmitter {
 
 //const hosam = new Man();
 module.exports = new Man();
+
+process.on('exit', (e)=>{
+    console.warn('why you are exiting from here');
+});
+console.log(process.eventNames())
+
+process.exit(0)

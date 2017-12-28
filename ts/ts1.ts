@@ -53,9 +53,10 @@ export class Counter{
 
 }
 
+
 let counter = new Counter();
 
-console.log('counter Value',counter.Value);
+console.log('counter Value',counter.Value, counter.);
 
 type callback = (item?:any, index?:number|string, arr?:any[])=>any;
 
