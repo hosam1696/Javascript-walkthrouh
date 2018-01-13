@@ -14,7 +14,7 @@ abstract  class CX  {
     }
 
     getLove(love = 'Menna Allah') {
-        return `Love is ${love}`;
+        return `Life Love is ${love}`;
     }
 }
 
