@@ -2,7 +2,10 @@
   "name": "nodecli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node/ynlist/cli.js",
+  "bin": {
+    "readthis": "node/ynlist/cli.js"
+  },
   "scripts": {
     "test": "jest --watch ./js/*.js"
   },
