@@ -8,11 +8,11 @@ function* values(min = 0, max = 10) {
 }
 
 function* genYear(to = new Date().getFullYear(), from = to - 3) {
-    for (let y = from; y <= to; y++) yield y
+    for (let y = to; y >= from; y--) yield y
 }
 console.log(Array.from(genYear()))
 console.log(Array.from(genYear(), (iter, index) => iter))
-console.log(Array.from(genYear(), (iter, index) =>  iter + index ))
+console.log(Array.from(genYear(), (iter, index) => iter + index ))
 console.log(Array.from(genYear(), (iter, index) => 'year:' + iter))
 console.log(Array.from(genYear(), (iter, index) => `i won ${rand()} prizes in ${iter}`))
 

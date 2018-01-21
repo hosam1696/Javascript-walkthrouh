@@ -1,0 +1,53 @@
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#animals-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto 40px;
+}
+
+.animal-card {
+    box-sizing: border-box;
+    width: 316px;
+    border: 8px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(219, 217, 217);1
+    box-shadow: 5px 5px 25px #999
+}
+.animal-card .animal-card-name {
+    font-size: 30px;
+}
+.animal-card:first-child {
+    border-color: rgb(146, 8, 8);
+    background-color: rgb(163, 24, 24);
+    color: #eee;
+}
+.animal-card:last-child {
+    border-color: orange;
+    background-color: rgb(230, 150, 2);
+    color: #eee;
+}
+.animal-card p {
+    margin: 0 auto 2px;
+    text-align: center;
+    font-weight: blod;
+}
+.animal-card ul {
+    margin: 0;
+    padding: 0 0 10px 10px
+}
+.animal-card ul li{
+    list-style: none;
+    font-style: italic;
+    font-size: 12px;
+    padding: 5px 0
+}
