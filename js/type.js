@@ -19,13 +19,14 @@
 
 const x = 2656
 
-x = 4545
 
 
 // ASI => Automatic semicolon Insertion
 
 const Typeof = ds => Object.prototype.toString.call(ds).match(/\b\w*/g)[2].toLowerCase()
-
+module.exports = {
+	type: Typeof
+}
 console.log(Typeof('hosam'))
 console.log(Typeof([1,1]))
 console.log(Typeof({x:'Hosam'}))

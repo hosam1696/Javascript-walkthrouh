@@ -5,3 +5,5 @@
     Sets
     Trees
 */
+
+console.log(typeof [])

@@ -3,7 +3,7 @@ interface IX {
     s: number
 }
 
-abstract  class CX  {
+abstract class CX {
     public name: string;
     age: number;
     love: string;
@@ -19,8 +19,7 @@ abstract  class CX  {
 }
 
 
-class Ctest extends  CX {
-
+class Ctest extends CX {
 
 
     prop = "hosam";
